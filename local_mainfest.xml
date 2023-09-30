@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="edsheeran"
+          fetch="https://github.com/samsungexynos9810"
+          revision="thirteen" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="ninihao9/android_frameworks_base" path="frameworks/base" remote="github" revision="ninihao9-new" />
+  <remote name="gitlab" fetch="https://gitlab.com" />
+  <project path="hardware/samsung/nfc" remote="github" name="LineageOS/android_hardware_samsung_nfc" />
+  <project path="device/samsung_slsi/sepolicy" remote="github" name="LineageOS/android_device_samsung_slsi_sepolicy" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
+    <project name="Geoknyda/android_kernel_samsung_universal9810" path="kernel/samsung/universal9810" remote="github" revision="4.9y" />
+    <project name="Geoknyda/android_device_samsung_universal9810-common" path="device/samsung/universal9810-common" remote="github" revision="lineage-18.1" />
+    <project name="Geoknyda/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="lineage-18.1" />
+    <project name="Geoknyda/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="lineage-18.1" />
+    <project name="Geoknyda/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="lineage-18.1" />
+    <project name="Geoknyda/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
+</manifest>
