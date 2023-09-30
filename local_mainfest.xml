@@ -4,7 +4,7 @@
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="ninihao9/android_frameworks_base" path="frameworks/base" remote="github" revision="ninihao9-new" />
+  <project name="ninihao9/android_frameworks_base" path="frameworks/base" remote="github" revision="ninihao9-s9" />
   <remote name="gitlab" fetch="https://gitlab.com" />
   <project path="hardware/samsung/nfc" remote="github" name="LineageOS/android_hardware_samsung_nfc" />
   <project path="device/samsung_slsi/sepolicy" remote="github" name="LineageOS/android_device_samsung_slsi_sepolicy" />
